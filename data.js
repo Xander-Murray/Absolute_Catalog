@@ -9,6 +9,7 @@ const comics = [
     releaseYear: 2024,
     status: "Ongoing",
     genre: "Superhero",
+    coverImage: "https://static.dc.com/2024-09/ABS_BM_Cv1_00111_DIGITAL.jpg",
     rating: null,
     read: false,
     owned: false
@@ -23,6 +24,7 @@ const comics = [
     releaseYear: 2024,
     status: "Ongoing",
     genre: "Superhero",
+    coverImage: "https://static.dc.com/2024-11/ABS_BM_Cv2_00211_DIGITAL.jpg",
     rating: null,
     read: false,
     owned: false
@@ -37,6 +39,7 @@ const comics = [
     releaseYear: 2024,
     status: "Ongoing",
     genre: "Superhero",
+    coverImage: "https://static.dc.com/2024-12/ABS_BM_Cv3_00311_DIGITAL.jpg",
     rating: null,
     read: false,
     owned: false
@@ -51,6 +54,7 @@ const comics = [
     releaseYear: 2025,
     status: "Ongoing",
     genre: "Superhero",
+    coverImage: "https://static.dc.com/2024-12/ABS_BM_Cv4_00411_DIGITAL.jpg",
     rating: null,
     read: false,
     owned: false
@@ -65,6 +69,7 @@ const comics = [
     releaseYear: 2025,
     status: "Ongoing",
     genre: "Superhero",
+    coverImage: "https://static.dc.com/2025-02/ABS_BM_Cv5_00511_DIGITAL.jpg",
     rating: null,
     read: false,
     owned: false
@@ -79,6 +84,7 @@ const comics = [
     releaseYear: 2025,
     status: "Ongoing",
     genre: "Superhero",
+    coverImage: "https://static.dc.com/2025-03/ABS_BM_Cv6_00611_DIGITAL.jpg",
     rating: null,
     read: false,
     owned: false
@@ -93,6 +99,7 @@ const comics = [
     releaseYear: 2025,
     status: "Ongoing",
     genre: "Superhero",
+    coverImage: "https://static.dc.com/2025-04/ABS_BM_Cv7_00711_DIGITAL.jpg",
     rating: null,
     read: false,
     owned: false
@@ -107,6 +114,7 @@ const comics = [
     releaseYear: 2025,
     status: "Ongoing",
     genre: "Superhero",
+    coverImage: "https://static.dc.com/2025-05/ABS_BM_Cv8_00811_DIGITAL.jpg",
     rating: null,
     read: false,
     owned: false
@@ -121,6 +129,7 @@ const comics = [
     releaseYear: 2025,
     status: "Ongoing",
     genre: "Superhero",
+    coverImage: "https://static.dc.com/2025-06/ABS_BM_Cv9_00911_DIGITAL.jpg",
     rating: null,
     read: false,
     owned: false
@@ -135,6 +144,7 @@ const comics = [
     releaseYear: 2025,
     status: "Ongoing",
     genre: "Superhero",
+    coverImage: "https://static.dc.com/2025-07/ABS_BM_Cv10_01011_DIGITAL.jpg",
     rating: null,
     read: false,
     owned: false
@@ -149,6 +159,7 @@ const comics = [
     releaseYear: 2025,
     status: "Ongoing",
     genre: "Superhero",
+    coverImage: "https://static.dc.com/2025-08/ABS_BM_Cv11_01111_DIGITAL.jpg",
     rating: null,
     read: false,
     owned: false
@@ -163,6 +174,7 @@ const comics = [
     releaseYear: 2025,
     status: "Ongoing",
     genre: "Superhero",
+    coverImage: "https://static.dc.com/2025-09/T2349200125001.jpg",
     rating: null,
     read: false,
     owned: false
@@ -177,6 +189,7 @@ const comics = [
     releaseYear: 2025,
     status: "Ongoing",
     genre: "Superhero",
+    coverImage: "https://static.dc.com/2025-10/T2349200135001.jpg",
     rating: null,
     read: false,
     owned: false
@@ -191,6 +204,7 @@ const comics = [
     releaseYear: 2025,
     status: "Ongoing",
     genre: "Superhero",
+    coverImage: "https://static.dc.com/2025-11/T2349200145001_000_HD_HD.jpg",
     rating: null,
     read: false,
     owned: false
@@ -205,6 +219,7 @@ const comics = [
     releaseYear: 2025,
     status: "Ongoing",
     genre: "Superhero",
+    coverImage: "https://static.dc.com/2025-12/T2349200155001_000_HD_HD.jpg",
     rating: null,
     read: false,
     owned: false
@@ -219,6 +234,7 @@ const comics = [
     releaseYear: 2026,
     status: "Ongoing",
     genre: "Superhero",
+    coverImage: "https://static.dc.com/2026-01/T2349200165001.jpg",
     rating: null,
     read: false,
     owned: false
@@ -233,6 +249,7 @@ const comics = [
     releaseYear: 2026,
     status: "Ongoing",
     genre: "Superhero",
+    coverImage: "https://static.dc.com/2026-02/T2349200175001.jpg",
     rating: null,
     read: false,
     owned: false
@@ -247,6 +264,7 @@ const comics = [
     releaseYear: 2026,
     status: "Ongoing",
     genre: "Superhero",
+    coverImage: "https://static.dc.com/2026-03/T2349200185001.jpg",
     rating: null,
     read: false,
     owned: false
@@ -261,6 +279,7 @@ const comics = [
     releaseYear: 2026,
     status: "Ongoing",
     genre: "Superhero",
+    coverImage: "https://static.dc.com/2026-04/T2349200195001.jpg",
     rating: null,
     read: false,
     owned: false
@@ -275,6 +294,7 @@ const comics = [
     releaseYear: 2024,
     status: "Ongoing",
     genre: "Superhero",
+    coverImage: "https://static.dc.com/2024-10/ABS_WW_Cv1_00111_DIGITAL.jpg",
     rating: null,
     read: false,
     owned: false
@@ -289,6 +309,7 @@ const comics = [
     releaseYear: 2024,
     status: "Ongoing",
     genre: "Superhero",
+    coverImage: "https://static.dc.com/2024-11/ABS_WW_Cv2_00211_DIGITAL.jpg",
     rating: null,
     read: false,
     owned: false
@@ -303,6 +324,7 @@ const comics = [
     releaseYear: 2024,
     status: "Ongoing",
     genre: "Superhero",
+    coverImage: "https://static.dc.com/2024-12/ABS_WW_Cv3_00311_DIGITAL.jpg",
     rating: null,
     read: false,
     owned: false
@@ -317,6 +339,7 @@ const comics = [
     releaseYear: 2025,
     status: "Ongoing",
     genre: "Superhero",
+    coverImage: "https://static.dc.com/2025-01/ABS_WW_Cv4_00411_DIGITAL.jpg",
     rating: null,
     read: false,
     owned: false
@@ -331,6 +354,7 @@ const comics = [
     releaseYear: 2025,
     status: "Ongoing",
     genre: "Superhero",
+    coverImage: "https://static.dc.com/2025-02/ABS_WW_Cv5_00511_DIGITAL.jpg",
     rating: null,
     read: false,
     owned: false
@@ -345,6 +369,7 @@ const comics = [
     releaseYear: 2025,
     status: "Ongoing",
     genre: "Superhero",
+    coverImage: "https://static.dc.com/2025-03/ABS_WW_Cv6_00611_DIGITAL.jpg",
     rating: null,
     read: false,
     owned: false
@@ -359,6 +384,7 @@ const comics = [
     releaseYear: 2025,
     status: "Ongoing",
     genre: "Superhero",
+    coverImage: "https://static.dc.com/2025-04/ABS_WW_Cv7_00711_DIGITAL.jpg",
     rating: null,
     read: false,
     owned: false
@@ -373,6 +399,7 @@ const comics = [
     releaseYear: 2025,
     status: "Ongoing",
     genre: "Superhero",
+    coverImage: "https://static.dc.com/2025-05/ABS_WW_Cv8_00811_DIGITAL.jpg",
     rating: null,
     read: false,
     owned: false
@@ -387,6 +414,7 @@ const comics = [
     releaseYear: 2025,
     status: "Ongoing",
     genre: "Superhero",
+    coverImage: "https://static.dc.com/2025-06/ABS_WW_Cv9_00911_DIGITAL.jpg",
     rating: null,
     read: false,
     owned: false
@@ -401,6 +429,7 @@ const comics = [
     releaseYear: 2025,
     status: "Ongoing",
     genre: "Superhero",
+    coverImage: "https://images.comicbookroundup.com/img/covers/a/absolute-wonder-woman-(2024)/10.webp",
     rating: null,
     read: false,
     owned: false
@@ -415,6 +444,7 @@ const comics = [
     releaseYear: 2025,
     status: "Ongoing",
     genre: "Superhero",
+    coverImage: "https://static.dc.com/2025-08/ABS_WW_Cv11_01111_DIGITAL.jpg",
     rating: null,
     read: false,
     owned: false
@@ -429,6 +459,7 @@ const comics = [
     releaseYear: 2025,
     status: "Ongoing",
     genre: "Superhero",
+    coverImage: "https://static.dc.com/2025-09/T2349400125001.jpg",
     rating: null,
     read: false,
     owned: false
@@ -443,6 +474,7 @@ const comics = [
     releaseYear: 2025,
     status: "Ongoing",
     genre: "Superhero",
+    coverImage: "https://static.dc.com/2025-10/T2349400135001.jpg",
     rating: null,
     read: false,
     owned: false
@@ -457,6 +489,7 @@ const comics = [
     releaseYear: 2025,
     status: "Ongoing",
     genre: "Superhero",
+    coverImage: "https://static.dc.com/2025-11/T2349400145001_000_HD_HD.jpg",
     rating: null,
     read: false,
     owned: false
@@ -471,6 +504,7 @@ const comics = [
     releaseYear: 2025,
     status: "Ongoing",
     genre: "Superhero",
+    coverImage: "https://static.dc.com/2025-12/T2349400155001_000_HD_HD.jpg",
     rating: null,
     read: false,
     owned: false
@@ -485,6 +519,7 @@ const comics = [
     releaseYear: 2026,
     status: "Ongoing",
     genre: "Superhero",
+    coverImage: "https://static.dc.com/2026-01/T2349400165001.jpg",
     rating: null,
     read: false,
     owned: false
@@ -499,6 +534,7 @@ const comics = [
     releaseYear: 2026,
     status: "Ongoing",
     genre: "Superhero",
+    coverImage: "https://static.dc.com/2026-02/T2349400175001.jpg",
     rating: null,
     read: false,
     owned: false
@@ -513,6 +549,7 @@ const comics = [
     releaseYear: 2026,
     status: "Ongoing",
     genre: "Superhero",
+    coverImage: "https://static.dc.com/2026-03/T2349400185001.jpg",
     rating: null,
     read: false,
     owned: false
@@ -527,6 +564,7 @@ const comics = [
     releaseYear: 2024,
     status: "Ongoing",
     genre: "Superhero",
+    coverImage: "https://static.dc.com/2024-10/ABS_SM_Cv1_00111_DIGITAL.jpg",
     rating: null,
     read: false,
     owned: false
@@ -541,6 +579,7 @@ const comics = [
     releaseYear: 2024,
     status: "Ongoing",
     genre: "Superhero",
+    coverImage: "https://static.dc.com/2024-12/ABS_SM_Cv2_00211_DIGITAL.jpg",
     rating: null,
     read: false,
     owned: false
@@ -555,6 +594,7 @@ const comics = [
     releaseYear: 2025,
     status: "Ongoing",
     genre: "Superhero",
+    coverImage: "https://static.dc.com/2024-12/ABS_SM_Cv3_00311_DIGITAL.jpg",
     rating: null,
     read: false,
     owned: false
@@ -569,6 +609,7 @@ const comics = [
     releaseYear: 2025,
     status: "Ongoing",
     genre: "Superhero",
+    coverImage: "https://static.dc.com/2025-02/ABS_SM_Cv4_00411_DIGITAL.jpg",
     rating: null,
     read: false,
     owned: false
@@ -583,6 +624,7 @@ const comics = [
     releaseYear: 2025,
     status: "Ongoing",
     genre: "Superhero",
+    coverImage: "https://static.dc.com/2025-03/ABS_SM_Cv5_00511_DIGITAL.jpg",
     rating: null,
     read: false,
     owned: false
@@ -597,6 +639,7 @@ const comics = [
     releaseYear: 2025,
     status: "Ongoing",
     genre: "Superhero",
+    coverImage: "https://static.dc.com/2025-04/ABS_SM_Cv6_00611_DIGITAL.jpg",
     rating: null,
     read: false,
     owned: false
@@ -611,6 +654,7 @@ const comics = [
     releaseYear: 2025,
     status: "Ongoing",
     genre: "Superhero",
+    coverImage: "https://static.dc.com/2025-05/ABS_SM_Cv7_00711_DIGITAL.jpg",
     rating: null,
     read: false,
     owned: false
@@ -625,6 +669,7 @@ const comics = [
     releaseYear: 2025,
     status: "Ongoing",
     genre: "Superhero",
+    coverImage: "https://static.dc.com/2025-06/ABS_SM_Cv8_00811_DIGITAL.jpg",
     rating: null,
     read: false,
     owned: false
@@ -639,6 +684,7 @@ const comics = [
     releaseYear: 2025,
     status: "Ongoing",
     genre: "Superhero",
+    coverImage: "https://images.comicbookroundup.com/img/covers/a/absolute-superman-(2024)/9.webp",
     rating: null,
     read: false,
     owned: false
@@ -653,6 +699,7 @@ const comics = [
     releaseYear: 2025,
     status: "Ongoing",
     genre: "Superhero",
+    coverImage: "https://static.dc.com/2025-08/ABS_SM_Cv10_01011_DIGITAL.jpg",
     rating: null,
     read: false,
     owned: false
@@ -667,6 +714,7 @@ const comics = [
     releaseYear: 2025,
     status: "Ongoing",
     genre: "Superhero",
+    coverImage: "https://static.dc.com/2025-09/T2349300115001.jpg",
     rating: null,
     read: false,
     owned: false
@@ -681,6 +729,7 @@ const comics = [
     releaseYear: 2025,
     status: "Ongoing",
     genre: "Superhero",
+    coverImage: "https://static.dc.com/2025-10/T2349300125001.jpg",
     rating: null,
     read: false,
     owned: false
@@ -695,6 +744,7 @@ const comics = [
     releaseYear: 2025,
     status: "Ongoing",
     genre: "Superhero",
+    coverImage: "https://static.dc.com/2025-11/T2349300135001.jpg",
     rating: null,
     read: false,
     owned: false
@@ -709,6 +759,7 @@ const comics = [
     releaseYear: 2025,
     status: "Ongoing",
     genre: "Superhero",
+    coverImage: "https://static.dc.com/2025-12/T2349300145001.jpg",
     rating: null,
     read: false,
     owned: false
@@ -723,6 +774,7 @@ const comics = [
     releaseYear: 2026,
     status: "Ongoing",
     genre: "Superhero",
+    coverImage: "https://static.dc.com/2026-01/T2349300155001_000_HD_HD.jpg",
     rating: null,
     read: false,
     owned: false
@@ -737,6 +789,7 @@ const comics = [
     releaseYear: 2026,
     status: "Ongoing",
     genre: "Superhero",
+    coverImage: "https://static.dc.com/2026-02/T2349300165001.jpg",
     rating: null,
     read: false,
     owned: false
@@ -751,6 +804,7 @@ const comics = [
     releaseYear: 2026,
     status: "Ongoing",
     genre: "Superhero",
+    coverImage: "https://static.dc.com/2026-03/T2349300175001.jpg",
     rating: null,
     read: false,
     owned: false
@@ -765,6 +819,7 @@ const comics = [
     releaseYear: 2026,
     status: "Ongoing",
     genre: "Superhero",
+    coverImage: "https://static.dc.com/2026-03/T2349300185001.jpg",
     rating: null,
     read: false,
     owned: false
@@ -779,6 +834,7 @@ const comics = [
     releaseYear: 2025,
     status: "Ongoing",
     genre: "Superhero",
+    coverImage: "https://static.dc.com/2025-03/AB_FLS_Cv1_00111_DIGITAL.jpg",
     rating: null,
     read: false,
     owned: false
@@ -793,6 +849,7 @@ const comics = [
     releaseYear: 2025,
     status: "Ongoing",
     genre: "Superhero",
+    coverImage: "https://static.dc.com/2025-04/AB_FLS_Cv2_00211_R1.jpg",
     rating: null,
     read: false,
     owned: false
@@ -807,6 +864,7 @@ const comics = [
     releaseYear: 2025,
     status: "Ongoing",
     genre: "Superhero",
+    coverImage: "https://static.dc.com/2025-05/AB_FLS_Cv3_00311_DIGITAL.jpg",
     rating: null,
     read: false,
     owned: false
@@ -821,6 +879,7 @@ const comics = [
     releaseYear: 2025,
     status: "Ongoing",
     genre: "Superhero",
+    coverImage: "https://static.dc.com/2025-06/AB_FLS_Cv4_00411_DIGITAL.jpg",
     rating: null,
     read: false,
     owned: false
@@ -835,6 +894,7 @@ const comics = [
     releaseYear: 2025,
     status: "Ongoing",
     genre: "Superhero",
+    coverImage: "https://static.dc.com/2025-07/AB_FLS_Cv5_00511_DIGITAL.jpg",
     rating: null,
     read: false,
     owned: false
@@ -849,6 +909,7 @@ const comics = [
     releaseYear: 2025,
     status: "Ongoing",
     genre: "Superhero",
+    coverImage: "https://static.dc.com/2025-08/AB_FLS_Cv6_00611_DIGITAL.jpg",
     rating: null,
     read: false,
     owned: false
@@ -863,6 +924,7 @@ const comics = [
     releaseYear: 2025,
     status: "Ongoing",
     genre: "Superhero",
+    coverImage: "https://static.dc.com/2025-09/T2385700075001.jpg",
     rating: null,
     read: false,
     owned: false
@@ -877,6 +939,7 @@ const comics = [
     releaseYear: 2025,
     status: "Ongoing",
     genre: "Superhero",
+    coverImage: "https://static.dc.com/2025-10/T2385700085001.jpg",
     rating: null,
     read: false,
     owned: false
@@ -891,6 +954,7 @@ const comics = [
     releaseYear: 2025,
     status: "Ongoing",
     genre: "Superhero",
+    coverImage: "https://static.dc.com/2025-11/T2385700095001_000_HD_HD.jpg",
     rating: null,
     read: false,
     owned: false
@@ -905,6 +969,7 @@ const comics = [
     releaseYear: 2025,
     status: "Ongoing",
     genre: "Superhero",
+    coverImage: "https://static.dc.com/2025-12/T2385700105001_000_HD_HD.jpg",
     rating: null,
     read: false,
     owned: false
@@ -919,6 +984,7 @@ const comics = [
     releaseYear: 2026,
     status: "Ongoing",
     genre: "Superhero",
+    coverImage: "https://static.dc.com/2026-01/T2385700115001.jpg",
     rating: null,
     read: false,
     owned: false
@@ -933,6 +999,7 @@ const comics = [
     releaseYear: 2026,
     status: "Ongoing",
     genre: "Superhero",
+    coverImage: "https://static.dc.com/2026-03/T2385700125001.jpg",
     rating: null,
     read: false,
     owned: false
@@ -947,6 +1014,7 @@ const comics = [
     releaseYear: 2026,
     status: "Ongoing",
     genre: "Superhero",
+    coverImage: "https://images.comicbookroundup.com/img/covers/a/absolute-flash-(2025)/13.webp",
     rating: null,
     read: false,
     owned: false
@@ -961,6 +1029,7 @@ const comics = [
     releaseYear: 2025,
     status: "Ongoing",
     genre: "Superhero",
+    coverImage: "https://static.dc.com/2025-04/ABS_GL_Cv1_00111_DIGITAL.jpg",
     rating: null,
     read: false,
     owned: false
@@ -975,6 +1044,7 @@ const comics = [
     releaseYear: 2025,
     status: "Ongoing",
     genre: "Superhero",
+    coverImage: "https://static.dc.com/2025-05/ABS_GL_Cv2_00211_DIGITAL.jpg",
     rating: null,
     read: false,
     owned: false
@@ -989,6 +1059,7 @@ const comics = [
     releaseYear: 2025,
     status: "Ongoing",
     genre: "Superhero",
+    coverImage: "https://static.dc.com/2025-06/ABS-GL_Cv3_00311_DIGITAL.jpg",
     rating: null,
     read: false,
     owned: false
@@ -1003,6 +1074,7 @@ const comics = [
     releaseYear: 2025,
     status: "Ongoing",
     genre: "Superhero",
+    coverImage: "https://static.dc.com/2025-07/ABS-GL_Cv4_00411_DIGITAL.jpg",
     rating: null,
     read: false,
     owned: false
@@ -1017,6 +1089,7 @@ const comics = [
     releaseYear: 2025,
     status: "Ongoing",
     genre: "Superhero",
+    coverImage: "https://static.dc.com/2025-08/ABS-GL_Cv5_00511_DIGITAL.jpg",
     rating: null,
     read: false,
     owned: false
@@ -1031,6 +1104,7 @@ const comics = [
     releaseYear: 2025,
     status: "Ongoing",
     genre: "Superhero",
+    coverImage: "https://static.dc.com/2025-09/T2356500065001.jpg",
     rating: null,
     read: false,
     owned: false
@@ -1045,6 +1119,7 @@ const comics = [
     releaseYear: 2025,
     status: "Ongoing",
     genre: "Superhero",
+    coverImage: "https://static.dc.com/2025-09/T2356500075001.jpg",
     rating: null,
     read: false,
     owned: false
@@ -1059,6 +1134,7 @@ const comics = [
     releaseYear: 2025,
     status: "Ongoing",
     genre: "Superhero",
+    coverImage: "https://static.dc.com/2025-11/T2356500085001.jpg",
     rating: null,
     read: false,
     owned: false
@@ -1073,6 +1149,7 @@ const comics = [
     releaseYear: 2025,
     status: "Ongoing",
     genre: "Superhero",
+    coverImage: "https://static.dc.com/2025-12/T2356500095001_000_HD_HD.jpg",
     rating: null,
     read: false,
     owned: false
@@ -1087,6 +1164,7 @@ const comics = [
     releaseYear: 2026,
     status: "Ongoing",
     genre: "Superhero",
+    coverImage: "https://static.dc.com/2026-01/T2356500105001_000_HD_HD.jpg",
     rating: null,
     read: false,
     owned: false
@@ -1101,6 +1179,7 @@ const comics = [
     releaseYear: 2026,
     status: "Ongoing",
     genre: "Superhero",
+    coverImage: "https://static.dc.com/2026-02/T2356500115001.jpg",
     rating: null,
     read: false,
     owned: false
@@ -1115,6 +1194,7 @@ const comics = [
     releaseYear: 2026,
     status: "Ongoing",
     genre: "Superhero",
+    coverImage: "https://static.dc.com/2026-03/T2356500125001.jpg",
     rating: null,
     read: false,
     owned: false
@@ -1129,6 +1209,7 @@ const comics = [
     releaseYear: 2025,
     status: "Limited Series",
     genre: "Superhero",
+    coverImage: "https://static.dc.com/2025-03/ABS-MM_Cv1_00111_DIGITAL.jpg",
     rating: null,
     read: false,
     owned: false
@@ -1143,6 +1224,7 @@ const comics = [
     releaseYear: 2025,
     status: "Limited Series",
     genre: "Superhero",
+    coverImage: "https://static.dc.com/2025-04/ABS-MM_Cv2_00211_DIGITAL.jpg",
     rating: null,
     read: false,
     owned: false
@@ -1157,6 +1239,7 @@ const comics = [
     releaseYear: 2025,
     status: "Limited Series",
     genre: "Superhero",
+    coverImage: "https://static.dc.com/2025-05/ABS-MM_Cv3_00311_DIGITAL.jpg",
     rating: null,
     read: false,
     owned: false
@@ -1171,6 +1254,7 @@ const comics = [
     releaseYear: 2025,
     status: "Limited Series",
     genre: "Superhero",
+    coverImage: "https://static.dc.com/2025-06/ABS-MM_Cv4_00411_DIGITAL.jpg",
     rating: null,
     read: false,
     owned: false
@@ -1185,6 +1269,7 @@ const comics = [
     releaseYear: 2025,
     status: "Limited Series",
     genre: "Superhero",
+    coverImage: "https://images.comicbookroundup.com/img/covers/a/absolute-martian-manhunter-(2025)/5.webp",
     rating: null,
     read: false,
     owned: false
@@ -1199,6 +1284,7 @@ const comics = [
     releaseYear: 2025,
     status: "Limited Series",
     genre: "Superhero",
+    coverImage: "https://static.dc.com/2025-08/ABS-MM_Cv6_00611_DIGITAL.jpg",
     rating: null,
     read: false,
     owned: false
@@ -1213,6 +1299,7 @@ const comics = [
     releaseYear: 2025,
     status: "Limited Series",
     genre: "Superhero",
+    coverImage: "https://static.dc.com/2025-12/T2385300075001_000_HD_HD.jpg",
     rating: null,
     read: false,
     owned: false
@@ -1224,9 +1311,10 @@ const comics = [
     writer: "Deniz Camp",
     artist: "Javier Rodriguez",
     publisher: "DC",
-    releaseYear: 2025,
+    releaseYear: 2026,
     status: "Limited Series",
     genre: "Superhero",
+    coverImage: "https://bleedingcool.com/wp-content/uploads/2026/01/1125DC0067.jpg",
     rating: null,
     read: false,
     owned: false
@@ -1238,9 +1326,10 @@ const comics = [
     writer: "Deniz Camp",
     artist: "Javier Rodriguez",
     publisher: "DC",
-    releaseYear: 2025,
+    releaseYear: 2026,
     status: "Limited Series",
     genre: "Superhero",
+    coverImage: "https://static.dc.com/2026-02/T2385300095001.jpg",
     rating: null,
     read: false,
     owned: false
@@ -1255,6 +1344,7 @@ const comics = [
     releaseYear: 2026,
     status: "Limited Series",
     genre: "Superhero",
+    coverImage: "https://static.dc.com/2026-03/T2385300105001.jpg",
     rating: null,
     read: false,
     owned: false
@@ -1269,6 +1359,7 @@ const comics = [
     releaseYear: 2026,
     status: "Limited Series",
     genre: "Superhero",
+    coverImage: "https://static.dc.com/2025-03/ABS-MM_Cv1_00111_DIGITAL.jpg",
     rating: null,
     read: false,
     owned: false
@@ -1283,6 +1374,7 @@ const comics = [
     releaseYear: 2026,
     status: "Limited Series",
     genre: "Superhero",
+    coverImage: "https://static.dc.com/2025-03/ABS-MM_Cv1_00111_DIGITAL.jpg",
     rating: null,
     read: false,
     owned: false
