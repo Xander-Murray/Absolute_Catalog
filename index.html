@@ -1,8 +1,9 @@
 <!doctype html>
-<html>
+<html lang="en">
   <head>
     <title>Absolute Catalog</title>
     <meta name="description" content="A Catalog of DC's Absolute Universe" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <script type="text/javascript" src="data.js"></script>
     <script type="text/javascript" src="scripts.js"></script>
@@ -10,23 +11,107 @@
 
   <body>
     <header class="main-header">
-      <h1 class="title">LA TV Shows</h1>
+      <h1 class="title">Absolute Catalog</h1>
+      <p class="subtitle">DC's Absolute Universe &mdash; 2024&ndash;present</p>
     </header>
-    <div id="card-container"></div>
-    <div class="card" style="display: none">
-      <div class="card-content">
-        <h2>TV Show Title</h2>
-        <img src="" alt="TV Show Poster" />
-        <ul>
-          <li>Bullet Point 1</li>
-          <li>Bullet Point 2</li>
-          <li>Bullet Point 3</li>
-        </ul>
+
+    <div id="filter-container">
+      <input
+        type="text"
+        id="search-input"
+        placeholder="Search title or writer..."
+      />
+      <select id="character-filter">
+        <option value="">All Characters</option>
+        <option value="Batman">Batman</option>
+        <option value="Wonder Woman">Wonder Woman</option>
+        <option value="Superman">Superman</option>
+        <option value="Flash">Flash</option>
+        <option value="Green Lantern">Green Lantern</option>
+        <option value="Martian Manhunter">Martian Manhunter</option>
+      </select>
+      <select id="status-filter">
+        <option value="">All Series</option>
+        <option value="Ongoing">Ongoing</option>
+        <option value="Limited Series">Limited Series</option>
+      </select>
+      <select id="sort-select">
+        <option value="default">Sort: Default</option>
+        <option value="issue-asc">Issue: Low to High</option>
+        <option value="issue-desc">Issue: High to Low</option>
+        <option value="year-asc">Year: Oldest First</option>
+        <option value="year-desc">Year: Newest First</option>
+        <option value="rating-desc">Rating: Highest First</option>
+      </select>
+    </div>
+
+    <div id="comic-container"></div>
+
+    <!-- temp card, cloned by my javascript filee -->
+    <div class="comic" style="display: none">
+      <div class="comic-summary">
+        <div class="comic-badges">
+          <span class="comic-character-badge">Character</span>
+          <span class="comic-status-badge">Status</span>
+        </div>
+        <h2 class="comic-title">Title</h2>
+        <p class="comic-issue-label">Issue #1</p>
+        <p class="comic-expand-hint">Click to expand</p>
+      </div>
+      <div class="comic-details">
+        <div class="comic-detail-row">
+          <span class="detail-label">Writer</span>
+          <span class="comic-writer">Writer Name</span>
+        </div>
+        <div class="comic-detail-row">
+          <span class="detail-label">Artist</span>
+          <span class="comic-artist">Artist Name</span>
+        </div>
+        <div class="comic-detail-row">
+          <span class="detail-label">Year</span>
+          <span class="comic-year">2024</span>
+        </div>
+        <div class="comic-detail-row">
+          <span class="detail-label">Genre</span>
+          <span class="comic-genre">Superhero</span>
+        </div>
+        <div class="comic-detail-row">
+          <span class="detail-label">Publisher</span>
+          <span class="comic-publisher">DC</span>
+        </div>
+        <div class="comic-actions">
+          <div class="rating-container">
+            <span class="detail-label">Rating</span>
+            <div class="stars">
+              <span class="star" data-value="1">&#9733;</span>
+              <span class="star" data-value="2">&#9733;</span>
+              <span class="star" data-value="3">&#9733;</span>
+              <span class="star" data-value="4">&#9733;</span>
+              <span class="star" data-value="5">&#9733;</span>
+              <span class="star" data-value="6">&#9733;</span>
+              <span class="star" data-value="7">&#9733;</span>
+              <span class="star" data-value="8">&#9733;</span>
+              <span class="star" data-value="9">&#9733;</span>
+              <span class="star" data-value="10">&#9733;</span>
+            </div>
+            <span class="rating-value">--/10</span>
+          </div>
+          <div class="toggles">
+            <label class="toggle-label">
+              <input type="checkbox" class="read-toggle" />
+              Read
+            </label>
+            <label class="toggle-label">
+              <input type="checkbox" class="owned-toggle" />
+              Owned
+            </label>
+          </div>
+        </div>
       </div>
     </div>
-    <div class="footer">
-      <button onclick="quoteAlert()">Get A Quote!</button>
-      <button onclick="removeLastCard()">Remove A Card!</button>
-    </div>
+
+    <footer class="footer">
+      <p class="footer-text">DC Absolute Universe</p>
+    </footer>
   </body>
 </html>
