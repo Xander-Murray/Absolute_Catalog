@@ -105,7 +105,7 @@ function fillCard(card, comic) {
   card.querySelector(".comic-artist").textContent = comic.artist;
   card.querySelector(".comic-year").textContent = comic.releaseYear;
   card.querySelector(".comic-genre").textContent = comic.genre;
-  card.querySelector(".comic-publisher").textContent = comic.publisher;
+  card.querySelector(".comic-arc").textContent = comic.arcName;
 
   const stars = card.querySelectorAll(".star");
   const ratingValue = card.querySelector(".rating-value");
