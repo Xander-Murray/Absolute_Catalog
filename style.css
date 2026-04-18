@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500&display=swap");
 
 :root {
   --bg: #0d0d14;
@@ -10,7 +10,9 @@
   --accent: #c8102e;
 }
 
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -19,7 +21,7 @@
 body {
   background-color: var(--bg);
   color: var(--text);
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 /* Header */
@@ -30,7 +32,7 @@ body {
 }
 
 .title {
-  font-family: 'Bebas Neue', sans-serif;
+  font-family: "Bebas Neue", sans-serif;
   font-size: clamp(4rem, 12vw, 9rem);
   font-weight: 400;
   letter-spacing: 0.04em;
@@ -54,7 +56,6 @@ body {
   background-color: var(--surface);
   border-bottom: 1px solid var(--border);
 }
-
 #search-input,
 #character-filter,
 #status-filter,
@@ -64,7 +65,7 @@ body {
   color: var(--text);
   padding: 8px 12px;
   border-radius: 5px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 0.85rem;
   outline: none;
 }
@@ -83,6 +84,188 @@ body {
 #status-filter:focus,
 #sort-select:focus {
   border-color: var(--accent);
+}
+
+/* Comic grid */
+#comic-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 16px;
+  padding: 24px;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+/* Card */
+.comic {
+  background-color: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  overflow: hidden;
+  cursor: pointer;
+  transition:
+    transform 0.15s,
+    box-shadow 0.15s;
+}
+
+.comic:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.5);
+  border: 1px solid var(--accent);
+}
+
+/* Cover image */
+.comic img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Summary — always visible */
+.comic-summary {
+  padding: 12px 14px;
+}
+
+.comic-badges {
+  display: flex;
+  gap: 6px;
+  margin-bottom: 8px;
+  flex-wrap: wrap;
+}
+
+.comic-character-badge {
+  background-color: var(--accent);
+  color: #fff;
+  font-size: 0.65rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: 2px 7px;
+  border-radius: 3px;
+}
+
+.comic-status-badge {
+  background-color: var(--surface-raised);
+  color: var(--text-muted);
+  font-size: 0.65rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  padding: 2px 7px;
+  border-radius: 3px;
+  border: 1px solid var(--border);
+}
+
+.comic-title {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  line-height: 1.2;
+  margin-bottom: 2px;
+}
+
+.comic-issue-label {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  margin-bottom: 6px;
+}
+
+.comic-expand-hint {
+  font-size: 0.68rem;
+  color: var(--text-muted);
+  opacity: 0.5;
+}
+
+.comic.expanded .comic-expand-hint {
+  display: none;
+}
+
+/* detail are hidden until .expanded is toggled on */
+.comic-details {
+  display: none;
+  padding: 12px 14px 14px;
+  border-top: 1px solid var(--border);
+}
+
+.comic.expanded .comic-details {
+  display: block;
+}
+
+.comic-detail-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 0;
+  font-size: 0.8rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.comic-detail-row:last-of-type {
+  border-bottom: none;
+}
+
+.detail-label {
+  color: var(--text-muted);
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+/* Rating and toggles */
+.comic-actions {
+  margin-top: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.rating-container {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+.stars {
+  display: flex;
+  gap: 1px;
+}
+
+.star {
+  font-size: 0.95rem;
+  color: var(--border);
+  cursor: pointer;
+  user-select: none;
+  transition: color 0.1s;
+}
+
+.star.active {
+  color: #f5c518;
+}
+
+.rating-value {
+  font-size: 0.72rem;
+  color: var(--text-muted);
+}
+
+.toggles {
+  display: flex;
+  gap: 14px;
+}
+
+.toggle-label {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  cursor: pointer;
+  user-select: none;
+}
+
+.toggle-label input[type="checkbox"] {
+  accent-color: var(--accent);
+  cursor: pointer;
 }
 
 /* Footer */
