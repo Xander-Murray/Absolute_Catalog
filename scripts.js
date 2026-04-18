@@ -39,7 +39,27 @@ function fillCard(card, comic) {
   card.querySelector(".comic-genre").textContent = comic.genre;
   card.querySelector(".comic-publisher").textContent = comic.publisher;
 
-  // Clicking the summary toggles the "expanded" class, which CSS uses to show/hide details
+  const stars = card.querySelectorAll(".star");
+  const ratingValue = card.querySelector(".rating-value");
+
+  stars.forEach(function (star) {
+    star.addEventListener("click", function () {
+      const clicked = parseInt(star.getAttribute("data-value"));
+      comic.rating = clicked;
+
+      ratingValue.textContent = clicked + "/10";
+
+      stars.forEach(function (s) {
+        if (parseInt(s.getAttribute("data-value")) <= clicked) {
+          s.classList.add("active");
+        } else {
+          s.classList.remove("active");
+        }
+      });
+    });
+  });
+
+  // clicking the summary toggles the "expanded" class, which CSS uses to show/hide details
   card.querySelector(".comic-summary").addEventListener("click", function () {
     card.classList.toggle("expanded");
   });
