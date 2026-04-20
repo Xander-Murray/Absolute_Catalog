@@ -101,6 +101,18 @@ body {
   border-color: var(--accent);
 }
 
+/* Result count */
+#result-count {
+  max-width: 1400px;
+  width: calc(100% - 48px);
+  margin: 0 auto 8px;
+  padding: 0 4px;
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
 /* Comic grid */
 #comic-container {
   display: grid;

@@ -11,6 +11,11 @@ function showComics(list) {
 
   container.innerHTML = "";
 
+  // update the result count display
+  const count = list.length;
+  document.getElementById("result-count").textContent =
+    count + " issue" + (count === 1 ? "" : "s");
+
   const template = document.querySelector(".comic");
   for (let i = 0; i < list.length; i++) {
     const card = template.cloneNode(true);
@@ -135,6 +140,28 @@ function fillCard(card, comic) {
         }
       });
     });
+  });
+
+  // read / owned checkboxes — restore state from the data and wire clicks back to it
+  const readBox = card.querySelector(".read-toggle");
+  const ownedBox = card.querySelector(".owned-toggle");
+
+  readBox.checked = comic.read;
+  ownedBox.checked = comic.owned;
+
+  readBox.addEventListener("change", function () {
+    comic.read = readBox.checked;
+  });
+  ownedBox.addEventListener("change", function () {
+    comic.owned = ownedBox.checked;
+  });
+
+  // stop checkbox clicks from bubbling up and collapsing the card
+  readBox.addEventListener("click", function (e) {
+    e.stopPropagation();
+  });
+  ownedBox.addEventListener("click", function (e) {
+    e.stopPropagation();
   });
 
   // clicking the summary toggles the "expanded" class, which CSS uses to show/hide details
